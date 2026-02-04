@@ -48,4 +48,92 @@ print(c)
 distance=120
 time=3
 average_speed=distance//time
-print(average_speed)    
+print(average_speed) 
+
+Question 7
+num=10
+if(num >0):
+    print("Number is positive")
+else:
+    print("number is negative")
+
+Question 8
+age = 15
+if(age >=18):
+    print("Eligible to vote")
+elif(age<18):
+    print("Not eligible to vote")
+else:
+    print("Invalid age")
+
+Question 9
+number = int(input("Enter a number: "))
+if(number%2==0):
+    print("Number is even")
+else:
+    print("Number is odd")
+
+Question 10
+num1 = int(input("Enter 1st number"))
+num2 = int(input("Enter 2nd number"))
+if(num1>num2):
+    print(num1)
+elif(num1<num2):
+    print(num2)
+else:
+    print("Invalid number")
+
+Question 11
+num=int(input("Enter a number: "))
+if(num%5==0):
+    print("Number is divisible by 5")
+else:
+    print("Invalid number")
+
+Question 12
+marks=int(input("Enter your marks: "))
+if(marks>=90):
+    print("A")
+elif(marks>=75 and marks<90):
+    print("B")
+elif(marks>=50 and marks<75):
+    print("C")
+else:
+    print("Fail")
+
+Question 13
+year=int(input("Enter year: "))
+if(year%4==0):
+    print("Year is leap year")
+else:
+    print("Year is not leap year")
+
+Question 14
+num=int(input("Enter a number: "))
+if(num<10):
+    print("Number is single digit number")
+elif(num>=10 and num<100):
+    print("Number is double digit number")
+else:
+    print("More than two digits")
+
+Question 15
+temp = int(input("Enter a temperature: "))
+if(temp<0):
+    print("Freezing")
+elif(temp>=0 and temp>=20):
+    print("Cold")
+elif(temp>21 and temp<35):
+    print("Warm")
+else:
+    print("Hot")
+
+Question 16
+num = int(input("Take a number: "))
+positive = num%2==0;
+if(num>=0):
+    if(positive):
+        print("Number is even and positive")
+    else:
+        print("Odd and positive")
+
