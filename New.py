@@ -42,10 +42,10 @@ countries = {
 #         frequency[word] = 1
 # print(frequency)
 
-students = [
-    {"name": "Amit", "age":20},
-    {"name": "Neha","age":22},
-    {"name": "Rahul","age": 19}
-]
+# students = [
+#     {"name": "Amit", "age":20},
+#     {"name": "Neha","age":22},
+#     {"name": "Rahul","age": 19}
+# ]
 
-#Create a list of 3 dictionaries, each containing student "name" and "age".
+
